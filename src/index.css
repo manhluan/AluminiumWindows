@@ -11,21 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-@font-face {
-  font-family: "SVN-Gilroy";
-  src: local("SVN-Gilroy"),
-    url(./fonts/SVN-Gilroy\ Regular.otf) format("opentype");
-}
-
-@font-face {
-  font-family: "SVN-Gilroy-SemiBold";
-  src: local("SVN-Gilroy-SemiBold"),
-    url(./fonts/SVN-Gilroy\ SemiBold.otf) format("opentype");
-}
-
-@font-face {
-  font-family: "SVN-Gilroy-Bold";
-  src: local("SVN-Gilroy-Bold"),
-    url(./fonts/SVN-Gilroy\ Bold.otf) format("opentype");
-}
