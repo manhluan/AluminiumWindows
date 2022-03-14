@@ -1,0 +1,33 @@
+@font-face {
+  font-family: SVN-Gilroy;
+  src: url('./fonts/SVN-Gilroy\ Regular.otf');
+}
+
+@font-face {
+  font-family: SVN-Gilroy-Bold;
+  src: url('./fonts/SVN-Gilroy\ Bold.otf');
+}
+@font-face {
+  font-family: Playfair-Display;
+  src: url('./fonts/PlayfairDisplay-Regular.ttf');
+}
+@font-face {
+  font-family: Playfair-Display-Bold;
+  src: url('./fonts/PlayfairDisplay-Bold.ttf');
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: SVN-Gilroy;
+}
+
+.App {
+  box-sizing: border-box;
+  p {
+    margin: 0;
+  }
+}
