@@ -1,11 +1,10 @@
-
 *,
 *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: SVN-Gilroy;
+  font-family: "Open Sans";
 }
 
 .App {
@@ -13,4 +12,19 @@
   p {
     margin: 0;
   }
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url("./fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans Bold";
+  src: url("./fonts/OpenSans-Bold.ttf");
+}
+
+@font-face {
+  font-family: "Open Sans Italic";
+  src: url("./fonts/OpenSans-Italic.ttf");
 }
