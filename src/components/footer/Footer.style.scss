@@ -1,0 +1,70 @@
+@import "../../style/mixin.scss";
+
+
+.Footer {
+  padding-top: 57px;
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  .footer-contanter-area {
+    width: 33.3333%;
+    .footer-title {
+      font-size: 18px;
+      color: #222222;
+      text-transform: uppercase;
+      position: relative;
+      font-weight: 600;
+    }
+    .info-footer-adress {
+      margin: 0 0 10px 0;
+      .adres {
+       
+        list-style: none;
+        line-height: 24px;
+        padding: 8px 0;
+        overflow: hidden;
+        .detail-dt {
+          display: flex;
+          color: #ed1c24;
+          font-size: 12px;
+          min-width: 78px;
+          text-transform: capitalize;
+          line-height: 24px;
+          .detail-dcsp{
+            color: #ed1c24;
+            padding-left:10px;
+          }
+        }
+        .Icons{
+        margin-top: 2px;
+        font-size: 18px;
+        }
+      }
+    }
+    .socials-footer{
+      .socials-footer-ul{
+        display: flex;
+        .socials-footer-li{
+          margin-right: 20px;
+          list-style: none;
+          .faIcons{
+            color: #666;
+          }
+        }
+      }
+    }
+  }
+  .footer-Our-services{
+    width: 16.6666%;
+    .footer-menu{
+      list-style: none;
+      
+    }
+  }
+  .footer-Infomation{
+    width: 16.6666%;
+  }
+  .footer-Gallery{
+    width: 33.3333%;
+  }
+}
