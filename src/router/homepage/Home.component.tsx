@@ -7,6 +7,7 @@ import ShopDeal from "components/shopDeal/ShopDeal.component";
 import FeaturedProd from "components/featured-products/FeaturedProd.component";
 import BannerGrid from "components/banner-grid/BannerGrid.component";
 import PopularProd from "components/popular-products/PopularProd.component";
+import ColabBrands from "components/colab-brands/ColabBrands.component";
 const Home = () => {
     return (
         <Layout>
@@ -17,6 +18,7 @@ const Home = () => {
                 <FeaturedProd />
                 <BannerGrid />
                 <PopularProd />
+                <ColabBrands />
                 <Footer></Footer>
             </div>
         </Layout>
