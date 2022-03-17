@@ -6,6 +6,7 @@ import Bathroom from "components/bathroom/Bathroom.component";
 import ShopDeal from "components/shopDeal/ShopDeal.component";
 import FeaturedProd from "components/featured-products/FeaturedProd.component";
 import BannerGrid from "components/banner-grid/BannerGrid.component";
+import PopularProd from "components/popular-products/PopularProd.component";
 const Home = () => {
     return (
         <Layout>
@@ -15,6 +16,7 @@ const Home = () => {
                 <ShopDeal />
                 <FeaturedProd />
                 <BannerGrid />
+                <PopularProd />
                 <Footer></Footer>
             </div>
         </Layout>
