@@ -5,6 +5,7 @@ import Footer from "components/footer";
 import Bathroom from "components/bathroom/Bathroom.component";
 import ShopDeal from "components/shopDeal/ShopDeal.component";
 import FeaturedProd from "components/featured-products/FeaturedProd.component";
+import BannerGrid from "components/banner-grid/BannerGrid.component";
 const Home = () => {
     return (
         <Layout>
@@ -13,6 +14,7 @@ const Home = () => {
                 <Bathroom />
                 <ShopDeal />
                 <FeaturedProd />
+                <BannerGrid />
                 <Footer></Footer>
             </div>
         </Layout>

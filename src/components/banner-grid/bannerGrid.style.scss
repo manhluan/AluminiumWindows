@@ -1,0 +1,27 @@
+.bannerGrid_container {
+    background-image: url("https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/banner1.jpg?id=4149");
+    width: 100%;
+    height: 550px;
+    flex-wrap: wrap;
+   justify-content: center;
+   padding-top: 18px;
+}
+
+.banner_col img{
+    height: 240px;
+    object-fit: cover;
+    max-width: 100%;
+    transition: all 0.3s;
+    display: block;
+    width: 100%;
+    transform: scale(1);
+    cursor: pointer;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+.banner_col {
+    margin: 5px;
+    overflow: hidden;
+}
