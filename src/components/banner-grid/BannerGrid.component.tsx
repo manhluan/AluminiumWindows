@@ -34,7 +34,7 @@ const BannerGrid = () => {
                 <Row className="bannerGrid_container">
                     {
                         bannerItems.map((item, i) => (
-                            <Col span={6} key={i} className="banner_col">
+                            <Col md={{span:6}} xs={{span:24}} key={i} className="banner_col">
                                 <img src={item.url} alt="" />
                             </Col>
                         ))

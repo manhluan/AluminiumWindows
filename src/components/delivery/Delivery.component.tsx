@@ -1,13 +1,13 @@
 import React from 'react';
 import { Row, Col } from 'antd';
-import { FaRocket } from 'react-icons/fa';
+import { FaBitcoin, FaHeadphones, FaRocket } from 'react-icons/fa';
 import "./delivery.style.scss";
 
 const Delivery = () => {
     return (
         <>
             <Row className="delivery_section">
-                <Col className="delivery_col" span={4}>
+                <Col className="delivery_col" md={{span:4}} xs={{span:24}}>
                 <div>
                     <FaRocket className="delivery_icon" />
                 </div>
@@ -16,18 +16,18 @@ const Delivery = () => {
                     <p>From $99.00</p>
                 </div>
                 </Col>
-                <Col className="delivery_col" span={4}>
+                <Col className="delivery_col" md={{span:4}} xs={{span:24}}>
                 <div>
-                    <FaRocket className="delivery_icon" />
+                    <FaBitcoin className="delivery_icon" />
                 </div>
                 <div className="description">
                     <h3>Free Delivery</h3>
                     <p>From $99.00</p>
                 </div>
                 </Col>
-                <Col className="delivery_col" span={4}>
+                <Col className="delivery_col" md={{span:4}} xs={{span:24}}>
                 <div>
-                    <FaRocket className="delivery_icon" />
+                    <FaHeadphones className="delivery_icon" />
                 </div>
                 <div className="description">
                     <h3>Free Delivery</h3>

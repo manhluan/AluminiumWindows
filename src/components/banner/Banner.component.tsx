@@ -1,13 +1,19 @@
 import "./Banner.style.scss";
-import slider from "./images/slider3.jpg";
+import slider from "./images/newSlider_3.jpg";
+import slider_2 from "./images/newSlider_4.jpg";
 import Carousel from "react-elastic-carousel";
 
 const items = [
-  { id: 1, title: "item #1" },
-  { id: 2, title: "item #2" },
-  { id: 3, title: "item #3" },
-  { id: 4, title: "item #4" },
-  { id: 5, title: "item #5" },
+  { id: 1, title: "item #1", bgUrl: slider },
+  { id: 2, title: "item #2", bgUrl: slider_2 },
+  { id: 3, title: "item #3", bgUrl: slider },
+  { id: 4, title: "item #4", bgUrl: slider_2 },
+  { id: 5, title: "item #5", bgUrl: slider },
+  { id: 6, title: "item #1", bgUrl: slider_2 },
+  { id: 7, title: "item #2", bgUrl: slider },
+  { id: 8, title: "item #3", bgUrl: slider_2 },
+  { id: 9, title: "item #4", bgUrl: slider },
+  { id: 10, title: "item #5", bgUrl: slider_2 },
 ];
 
 const breakPoints = [
@@ -17,24 +23,42 @@ const breakPoints = [
   { width: 1200, itemsToShow: 1, itemsToScroll: 1 },
 ];
 const Banner = () => {
+
   return (
-    <Carousel breakPoints={breakPoints} isRTL={true} pagination={false}>
-      {items.map((item) => (
-        <div className="banner">
-          <img className="banner-background" src={slider} alt="aliminium" />
-          <div className="banner-flex-contents">
-            <div className="banner-content">
-              <h4 className="sub-title">Welcome to our</h4>
-              <h3 className="title">The history gift shop</h3>
-              <p className="description">
-                browser or inspring ideas for the home
-              </p>
-              <button className="shop-now">shop now</button>
+    <>
+      <Carousel
+        breakPoints={breakPoints}
+        isRTL={true} pagination={false}
+        enableAutoPlay={true}
+        autoPlaySpeed={3000}
+        showArrows={false}
+        >
+        {items.map((item) => (
+          <div className="banner">
+            <img className="banner-background" src={item.bgUrl} alt="aliminium" />
+            <div className="banner-flex-contents">
+              <div className="banner-content">
+                <h4 className="sub-title bouncing-text">
+                  <span className="b">E</span>
+                  <span className="b">M</span>
+                  <span className="o">O</span>
+                  <span className="u">C</span>
+                  <span className="n">L</span>
+                  <span className="c">E</span>
+                  <span className="e">W</span>
+                </h4>
+                <h3 className="title">XN Aluminium Windows</h3>
+                <p className="description">
+                  browser or inspring ideas for the home
+                </p>
+                <button className="shop-now">shop now</button>
+
+              </div>
             </div>
           </div>
-        </div>
-      ))}
-    </Carousel>
+        ))}
+      </Carousel>
+    </>
   );
 };
 

@@ -11,7 +11,7 @@ interface PropsI {
 const FeaturedProdItem = ({ product }: PropsI) => {
     return (
         <>
-            <Col span={4} className="prod_image_container">
+            <Col md={{span:4}} xs={{span:24}} className="prod_image_container">
                 <div className="prod_image">
                     <img src={product.imageUrl} alt={product.name} />
                     <div className="view_prod">

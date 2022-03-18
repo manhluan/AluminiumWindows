@@ -4,26 +4,26 @@ import { Row, Col } from 'antd';
 
 const shopDealList = [
     {
-        title: "Cook ware Set",
+        title: "Lock kit",
         promotion: "30% OFF",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bn-cat2.jpg"
+        url: "https://www.conceptaluminium.com.au/media/images/6d1a385979ad46317530a352fc79c850.jpg"
     },
     {
-        title: "Decor & Gifts",
+        title: "Lock kit",
         promotion: "30% OFF",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bn-cat2.jpg"
+        url: "https://www.conceptaluminium.com.au/media/images/6d1a385979ad46317530a352fc79c850.jpg"
     },
     {
-        title: "Home Office",
+        title: "Lock kit",
         promotion: "40% OFF",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bn-cat2.jpg"
+        url: "https://www.conceptaluminium.com.au/media/images/6d1a385979ad46317530a352fc79c850.jpg"
     },
 ]
 const ShopDeal = () => {
     return (
         <>
             <Row className="shopDeal_title">
-                <Col span={8}>
+                <Col md={{span:8}} xs={{span:24}}>
                     <h1>SHOP DEALS</h1>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ipsam rem perspiciatis magnam vero unde, quam blanditiis tenetur quae adipisci!</p>
                 </Col>
@@ -31,7 +31,7 @@ const ShopDeal = () => {
             <Row className="shopDeal_list">
                 {
                     shopDealList.map((image, i) => (
-                        <Col span={4} key={i}>
+                        <Col md={{span:4}} xs={{span:24}} key={i}>
                             <div className="shopDeal_image">
                                 <img src={image.url} alt={image.title}  />
                                 <div className="shopDeal_content">

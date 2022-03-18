@@ -8,7 +8,7 @@ interface PropsI {
 function SubArrivals({prodList, colName}: PropsI) {
     return (
         <>
-            <Col span={4} className="prodList_container">
+            <Col md={{span:4}} xs={{span:24}} className="prodList_container">
                     <div>
                         <h1>{colName}</h1>
                     </div>

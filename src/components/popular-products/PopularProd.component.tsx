@@ -33,7 +33,7 @@ const PopularProd = () => {
     return (
         <>
             <Row className="popularProd_title">
-                <Col span={8}>
+                <Col md={{span:8}} xs={{span:24}}>
                     <h3>Popular products</h3>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s</p>
                 </Col>

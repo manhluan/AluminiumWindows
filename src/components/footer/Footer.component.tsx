@@ -23,7 +23,7 @@ const Footer = () => {
 		<>
 		<div className="footer_container">
 			<Row className="shop_info">
-				<Col span={6} className="shop_info_col">
+				<Col md={{span:6}} xs={{span:24}} className="shop_info_col">
 					<h3>ABOUT US</h3>
 					<div className="aboutUs_row">
 						<FaHome className="aboutUs_homeIcon" />
@@ -52,7 +52,7 @@ const Footer = () => {
 						</Link>
 					</div>
 				</Col>
-				<Col span={2} className="shop_info_col">
+				<Col md={{span:2}} xs={{span:24}} className="shop_info_col">
 					<h3>OUR SERVICES</h3>
 					<div className="aboutUs_row">
 						<Link to="#" className="aboutUs_details">About Store</Link>
@@ -70,7 +70,7 @@ const Footer = () => {
 						<Link to="#" className="aboutUs_details">Our Sitemap</Link>
 					</div>
 				</Col>
-				<Col span={2} className="shop_info_col">
+				<Col md={{span:2}} xs={{span:24}} className="shop_info_col">
 					<h3>INFOMATION</h3>
 					<div className="aboutUs_row">
 						<Link to="#" className="aboutUs_details">About Store</Link>
@@ -88,7 +88,7 @@ const Footer = () => {
 						<Link to="#" className="aboutUs_details">Our Sitemap</Link>
 					</div>
 				</Col>
-				<Col span={6} className="shop_info_col">
+				<Col md={{span:6}} xs={{span:24}} className="shop_info_col">
 					<h3>GALLERY</h3>
 					<Row className="gallery_grid">
 						{
@@ -107,16 +107,16 @@ const Footer = () => {
 					<h3>Need help? call our award-winning</h3>
 					<p>Support team 24/7 AT (844) 555-8386</p>
 				</Col>
-				<Col md={{span:12}} xs={{span:24}} style={{ textAlign: 'right' }}>
+				<Col md={{span:12}} xs={{span:24}} style={{ textAlign: 'center' }}>
 					<input type="text" placeholder="Enter your email" />
 					<button>SUBSCRIBE</button>
 				</Col>
 			</Row>
 			<Row className="footer_bottom">
-				<Col span={8}>
+				<Col md={{span:8}} xs={{span:24}}>
 					<p className="copyright_text">©2022 WordPress Theme SW Shop4u. All Rights Reserved</p>
 				</Col>
-				<Col span={4} className="footer_subscribe">
+				<Col md={{span:4}} xs={{span:24}} className="footer_subscribe">
 					<p className="phone_number">Call us now: 0123-345-688</p>
 					<p>Email: <span className="footer_email">contact@gmail.com</span></p>
 				</Col>

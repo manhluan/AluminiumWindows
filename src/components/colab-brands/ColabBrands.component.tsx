@@ -40,7 +40,7 @@ const ColabBrands = () => {
             <Row className="brands_list">
                 {
                     colabBrandsList.map((brand, i) => (
-                        <Col span={2} key={i} className="brand_item">
+                        <Col md={{span:2}} xs={{span:24}} key={i} className="brand_item">
                             <img src={brand.url} alt="" />
                         </Col>
                     ))
