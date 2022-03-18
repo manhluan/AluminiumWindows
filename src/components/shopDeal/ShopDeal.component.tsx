@@ -30,8 +30,8 @@ const ShopDeal = () => {
             </Row>
             <Row className="shopDeal_list">
                 {
-                    shopDealList.map(image => (
-                        <Col span={4}>
+                    shopDealList.map((image, i) => (
+                        <Col span={4} key={i}>
                             <div className="shopDeal_image">
                                 <img src={image.url} alt={image.title}  />
                                 <div className="shopDeal_content">

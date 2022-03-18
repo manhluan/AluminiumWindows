@@ -29,8 +29,8 @@ const Bathroom = () => {
         <>
             <Row className="bathroom_section">
                 {
-                    mockImages.map(image =>
-                        <Col span={4} className="bathroom_image_container">
+                    mockImages.map((image, i) =>
+                        <Col span={4} key={i} className="bathroom_image_container">
                             <div className="bathroom_image">
                                 <img src={image.url} alt={image.title}  />
                             </div>

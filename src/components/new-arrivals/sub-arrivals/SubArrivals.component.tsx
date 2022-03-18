@@ -13,8 +13,8 @@ function SubArrivals({prodList, colName}: PropsI) {
                         <h1>{colName}</h1>
                     </div>
                     {
-                        prodList.map(prod => (
-                            <div className="prod_item">
+                        prodList.map((prod, i) => (
+                            <div className="prod_item" key={i}>
                                 <div className="image_left">
                                     <img src={prod.imageUrl} alt="" />
                                 </div>

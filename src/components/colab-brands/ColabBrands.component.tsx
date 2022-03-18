@@ -39,8 +39,8 @@ const ColabBrands = () => {
         <>
             <Row className="brands_list">
                 {
-                    colabBrandsList.map(brand => (
-                        <Col span={2} className="brand_item">
+                    colabBrandsList.map((brand, i) => (
+                        <Col span={2} key={i} className="brand_item">
                             <img src={brand.url} alt="" />
                         </Col>
                     ))
