@@ -1,3 +1,17 @@
+const shopMenuImages = [
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Phantomatic_M3.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Mitre_Saw.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Edge_Bench.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Edge_Bench.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Single_Saw.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Single_Saw.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Phantomatic_M3.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Mitre_Saw.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Edge_Bench.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Edge_Bench.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Single_Saw.jpg",
+  "https://www.conceptaluminium.com.au/media/ckfinder/images/Tooling/Alumach_Button_Single_Saw.jpg",
+]
 export const dataNav = [
   {
     title: "Home",
@@ -12,6 +26,7 @@ export const dataNav = [
   {
     title: "SHOP",
     expand: [],
+    shopMenuImages,
     expandMenu: [
       {
         title: "SHOP LAYOUTS",
