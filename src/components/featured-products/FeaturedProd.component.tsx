@@ -23,31 +23,31 @@ const featuredProdList = [
         id: 1,
         name: "CỬA NHÔM",
         price: "300,000",
-        imageUrl: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/09/11-300x300.jpg"
+        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
     },
     {
         id: 2,
         name: "CỬA SẮT",
         price: "300,000",
-        imageUrl: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/09/11-300x300.jpg"
+        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
     },
     {
         id: 3,
         name: "CỬA ĐỒNG",
         price: "300,000",
-        imageUrl: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/09/11-300x300.jpg"
+        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
     },
     {
         id: 4,
         name: "CỬA VÀNG",
         price: "300,000",
-        imageUrl: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/09/11-300x300.jpg"
+        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
     },
     {
         id: 5,
         name: "CỬA NHỰA",
         price: "300,000",
-        imageUrl: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/09/11-300x300.jpg"
+        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
     },
 ];
 const { TabPane } = Tabs;

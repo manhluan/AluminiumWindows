@@ -23,7 +23,7 @@ const Home = () => {
                 <ColabBrands />
                 <NewArrivals />
                 <Delivery />
-                <Footer></Footer>
+                <Footer />
             </div>
         </Layout>
     );

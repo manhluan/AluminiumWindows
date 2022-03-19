@@ -8,19 +8,19 @@ const newArrivals = [
         id: 1,
         name: "Ut Enim Ad Minima Veniam",
         price: "200,00",
-        imageUrl: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/09/16-300x300.jpg"
+        imageUrl: "https://www.conceptaluminium.com.au/media/images/cac9ab0e71dd2de21b259bdfce869b1a.jpg"
     },
     {
         id: 2,
         name: "Ut Enim Ad Minima Veniam",
         price: "200,00",
-        imageUrl: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/09/16-300x300.jpg"
+        imageUrl: "https://www.conceptaluminium.com.au/media/images/cac9ab0e71dd2de21b259bdfce869b1a.jpg"
     },
     {
         id: 3,
         name: "Ut Enim Ad Minima Veniam",
         price: "200,00",
-        imageUrl: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/09/16-300x300.jpg"
+        imageUrl: "https://www.conceptaluminium.com.au/media/images/cac9ab0e71dd2de21b259bdfce869b1a.jpg"
     },
 ];
 const NewArrivals = () => {

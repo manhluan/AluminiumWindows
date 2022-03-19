@@ -8,13 +8,13 @@ interface PropsI {
 function SubArrivals({prodList, colName}: PropsI) {
     return (
         <>
-            <Col span={4} className="prodList_container">
+            <Col md={{span:4}} xs={{span:24}} className="prodList_container">
                     <div>
                         <h1>{colName}</h1>
                     </div>
                     {
-                        prodList.map(prod => (
-                            <div className="prod_item">
+                        prodList.map((prod, i) => (
+                            <div className="prod_item" key={i}>
                                 <div className="image_left">
                                     <img src={prod.imageUrl} alt="" />
                                 </div>

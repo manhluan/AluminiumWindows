@@ -1,37 +1,38 @@
 import React from 'react';
 import { Row, Col } from 'antd';
 import './colabBrands.style.scss';
+import Carousel from "react-elastic-carousel";
 
 const colabBrandsList = [
     {
         id: 1,
         name: "Top fashion",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bran1.jpg"
+        url: "https://www.conceptaluminium.com.au/themes/frontend/images/menu-icon2.svg"
     },
     {
         id: 2,
         name: "Top fashion",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bran1.jpg"
+        url: "https://www.conceptaluminium.com.au/themes/frontend/images/menu-icon2.svg"
     },
     {
         id: 3,
         name: "Top fashion",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bran1.jpg"
+        url: "https://www.conceptaluminium.com.au/themes/frontend/images/menu-icon2.svg"
     },
     {
         id: 4,
         name: "Top fashion",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bran1.jpg"
+        url: "https://www.conceptaluminium.com.au/themes/frontend/images/menu-icon2.svg"
     },
     {
         id: 5,
         name: "Top fashion",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bran1.jpg"
+        url: "https://www.conceptaluminium.com.au/themes/frontend/images/menu-icon2.svg"
     },
     {
         id: 6,
         name: "Top fashion",
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/bran1.jpg"
+        url: "https://www.conceptaluminium.com.au/themes/frontend/images/menu-icon2.svg"
     },
 ]
 const ColabBrands = () => {
@@ -39,13 +40,14 @@ const ColabBrands = () => {
         <>
             <Row className="brands_list">
                 {
-                    colabBrandsList.map(brand => (
-                        <Col span={2} className="brand_item">
+                    colabBrandsList.map((brand, i) => (
+                        <Col md={{ span: 2 }} xs={{ span: 24 }} key={i} className="brand_item">
                             <img src={brand.url} alt="" />
                         </Col>
                     ))
                 }
             </Row>
+
         </>
     );
 }

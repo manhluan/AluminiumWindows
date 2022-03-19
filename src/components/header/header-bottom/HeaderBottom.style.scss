@@ -107,6 +107,22 @@
                   color: #ed1c24;
                 }
               }
+
+              
+            }
+          }
+
+          .shop-memu-item {
+            justify-content: center;
+            padding: 20px;
+          }
+          
+          .shop-menu-carousel {
+            margin-bottom: 30px;
+            img {
+              width: 100%;
+              padding: 10px;
+              -webkit-user-drag: none;
             }
           }
         }
@@ -117,7 +133,8 @@
           }
 
           .menu-dropdown {
-            display: grid;
+            display: flex;
+            flex-direction: column;
           }
         }
       }

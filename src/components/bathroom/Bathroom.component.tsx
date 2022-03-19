@@ -4,24 +4,24 @@ import "./bathroom.style.scss";
 
 const mockImages = [
     {
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/cat1.jpg",
-        title: "BATHROOMS"
+        url: "https://www.conceptaluminium.com.au/media/images/449bf7db45be64ef5806a36800153393.jpg",
+        title: "SECURITY ACCESORIES"
     },
     {
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/cat1.jpg",
-        title: "BEDROOMS"
+        url: "https://www.conceptaluminium.com.au/media/images/449bf7db45be64ef5806a36800153393.jpg",
+        title: "SECURITY ACCESORIES"
     },
     {
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/cat1.jpg",
-        title: "FURNITURE & DECOR"
+        url: "https://www.conceptaluminium.com.au/media/images/449bf7db45be64ef5806a36800153393.jpg",
+        title: "SECURITY ACCESORIES"
     },
     {
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/cat1.jpg",
-        title: "LAMP & LIGHTING"
+        url: "https://www.conceptaluminium.com.au/media/images/449bf7db45be64ef5806a36800153393.jpg",
+        title: "SECURITY ACCESORIES"
     },
     {
-        url: "https://demo.wpthemego.com/themes/sw_shop4u_free/wp-content/uploads/2017/12/cat1.jpg",
-        title: "SOFA & CHAIRS"
+        url: "https://www.conceptaluminium.com.au/media/images/449bf7db45be64ef5806a36800153393.jpg",
+        title: "SECURITY ACCESORIES"
     },
 ]
 const Bathroom = () => {
@@ -29,8 +29,8 @@ const Bathroom = () => {
         <>
             <Row className="bathroom_section">
                 {
-                    mockImages.map(image =>
-                        <Col span={4} className="bathroom_image_container">
+                    mockImages.map((image, i) =>
+                        <Col md={{span:4}} xs={{span:24}} key={i} className="bathroom_image_container">
                             <div className="bathroom_image">
                                 <img src={image.url} alt={image.title}  />
                             </div>
