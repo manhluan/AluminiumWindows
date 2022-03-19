@@ -12,13 +12,14 @@
       .item-1 {
         position: relative;
         padding: 25px 18px;
+        
         a {
           text-transform: uppercase;
           background-color: transparent;
           font-weight: 600;
           display: flex;
           align-items: center;
-          font-size: 14px;
+          font-size: 12px;
           line-height: 22px;
           color: #222222;
           text-decoration: none;
@@ -31,6 +32,7 @@
         }
 
         &:first-child {
+          padding-left: 0;
           a {
             padding-left: 0;
           }

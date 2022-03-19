@@ -16,10 +16,7 @@ export const dataNav = [
   {
     title: "Home",
     expand: [
-      "Home Page RTL",
-      "Home Page RTL",
-      "Home Page Boxed",
-      "Home Page Full",
+      
     ],
     expandMenu: [],
   },
@@ -65,7 +62,7 @@ export const dataNav = [
     ],
   },
   {
-    title: "Blog",
+    title: "VIDEOS",
     expand: [],
     expandMenu: [
       {
