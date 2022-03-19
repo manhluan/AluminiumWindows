@@ -52,7 +52,7 @@ const Footer = () => {
 						</Link>
 					</div>
 				</Col>
-				<Col md={{span:2}} xs={{span:24}} className="shop_info_col">
+				<Col md={{span:4}} xs={{span:24}} className="shop_info_col">
 					<h3>OUR SERVICES</h3>
 					<div className="aboutUs_row">
 						<Link to="#" className="aboutUs_details">About Store</Link>
@@ -70,7 +70,7 @@ const Footer = () => {
 						<Link to="#" className="aboutUs_details">Our Sitemap</Link>
 					</div>
 				</Col>
-				<Col md={{span:2}} xs={{span:24}} className="shop_info_col">
+				<Col md={{span:4}} xs={{span:24}} className="shop_info_col">
 					<h3>INFOMATION</h3>
 					<div className="aboutUs_row">
 						<Link to="#" className="aboutUs_details">About Store</Link>

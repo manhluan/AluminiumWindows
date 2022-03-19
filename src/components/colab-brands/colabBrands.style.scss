@@ -2,10 +2,18 @@
     justify-content: center;
     margin-top: 40px;
     align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    border: solid 1px #eeecec;
+    margin-top: 30px;
+    padding: 8px;
 }
 .brand_item {
     text-align: center;
     margin: 10px;
+    height: 100%;
+    width: 100%;
+
     img {
         cursor: pointer;
     }

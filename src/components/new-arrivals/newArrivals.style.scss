@@ -1,11 +1,13 @@
 .middle_prodList {
-    justify-content: center;
-    margin-top: 50px;
+    justify-content: space-between;
     padding: 7px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
 }
 .prodList_container {
   h1 {
-    font-size: 20px;
+    font-size: 16px;
     color: #222222;
     text-transform: uppercase;
     font-weight: 600;
@@ -32,7 +34,7 @@
     }
   }
   h4 {
-    font-size: 14px;
+    font-size: 12px;
     text-transform: capitalize;
     color: #222222;
     cursor: pointer;
@@ -42,7 +44,7 @@
     }
   }
   p {
-    font-size: 16px;
+    font-size: 12px;
     color: #ed1c24;
     overflow: hidden;
     font-weight: 600;

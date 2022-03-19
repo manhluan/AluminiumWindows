@@ -1,19 +1,21 @@
 import "./Banner.style.scss";
 import slider from "./images/newSlider_3.jpg";
 import slider_2 from "./images/newSlider_4.jpg";
+import slider_3 from "./images/slider3.png";
+import slider_4 from "./images/slider4.jpg";
 import Carousel from "react-elastic-carousel";
 
 const items = [
-  { id: 1, title: "item #1", bgUrl: slider },
-  { id: 2, title: "item #2", bgUrl: slider_2 },
-  { id: 3, title: "item #3", bgUrl: slider },
-  { id: 4, title: "item #4", bgUrl: slider_2 },
-  { id: 5, title: "item #5", bgUrl: slider },
-  { id: 6, title: "item #1", bgUrl: slider_2 },
-  { id: 7, title: "item #2", bgUrl: slider },
-  { id: 8, title: "item #3", bgUrl: slider_2 },
-  { id: 9, title: "item #4", bgUrl: slider },
-  { id: 10, title: "item #5", bgUrl: slider_2 },
+  { id: 1, title: "item #1", bgUrl: slider_3 },
+  { id: 2, title: "item #2", bgUrl: slider_4 },
+  { id: 3, title: "item #3", bgUrl: slider_3 },
+  { id: 4, title: "item #4", bgUrl: slider_4 },
+  { id: 5, title: "item #5", bgUrl: slider_3 },
+  { id: 6, title: "item #1", bgUrl: slider_4 },
+  { id: 7, title: "item #2", bgUrl: slider_3 },
+  { id: 8, title: "item #3", bgUrl: slider_4 },
+  { id: 9, title: "item #4", bgUrl: slider_3 },
+  { id: 10, title: "item #5", bgUrl: slider_4 },
 ];
 
 const breakPoints = [
