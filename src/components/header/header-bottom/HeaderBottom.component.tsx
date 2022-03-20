@@ -5,6 +5,13 @@ import { Link } from "react-router-dom";
 import Carousel from "react-elastic-carousel";
 import { Row, Col } from 'antd';
 
+const breakPoints = [
+  { width: 1, itemsToShow: 2 },
+  { width: 550, itemsToShow: 2, itemsToScroll: 2 },
+  { width: 768, itemsToShow: 4 },
+  { width: 1200, itemsToShow: 6 }
+];
+
 const HeaderBottom = () => {
   return (
     <div className="header-bottom">
@@ -33,6 +40,7 @@ const HeaderBottom = () => {
                   {item.expandMenu.length > 0 && (
                     <div className="menu-dropdown">
                       <Carousel
+                        breakPoints={breakPoints}
                         isRTL={true} pagination={false}
                         enableAutoPlay={true}
                         autoPlaySpeed={3000}
@@ -51,7 +59,7 @@ const HeaderBottom = () => {
                       <Row className="shop-memu-item">
                         {item.expandMenu.map((column) => (
                           <>
-                            <Col span={6} className="column" key={column.title}>
+                            <Col md={{span:6}} xs={{span:24}} className="column" key={column.title}>
                               <h6>{column.title}</h6>
                               <ul>
                                 {column.expand.map((row) => (
