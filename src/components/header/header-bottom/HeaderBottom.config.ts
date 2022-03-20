@@ -65,39 +65,39 @@ export const dataNav = [
     title: "VIDEOS",
     expand: [],
     expandMenu: [
-      {
-        title: "BLOG LAYOUTS 1",
-        expand: [
-          "Blog Right Sidebar Grid",
-          "Blog Left Sidebar Grid",
-          "Blog Full Width Grid",
-          "Left Sidebar List",
-          "Blog Right Sidebar List",
-        ],
-      },
-      {
-        title: "BLOG LAYOUTS 2",
-        expand: [
-          "Blog 2 Columns",
-          "Blog 3 Columns",
-          "Blog 4 Columns",
-          "Blog Mansory Grid",
-        ],
-      },
-      {
-        title: "POST FORMATS",
-        expand: [
-          "Post Format Image",
-          "Post Format Gallery",
-          "Post Format Audio",
-          "Post Format Video",
-          "Post Format Quote",
-        ],
-      },
-      {
-        title: "POST LAYOUTS",
-        expand: ["Full Width", "Left Sidebar", "Right Sidebar"],
-      },
+      // {
+      //   title: "BLOG LAYOUTS 1",
+      //   expand: [
+      //     "Blog Right Sidebar Grid",
+      //     "Blog Left Sidebar Grid",
+      //     "Blog Full Width Grid",
+      //     "Left Sidebar List",
+      //     "Blog Right Sidebar List",
+      //   ],
+      // },
+      // {
+      //   title: "BLOG LAYOUTS 2",
+      //   expand: [
+      //     "Blog 2 Columns",
+      //     "Blog 3 Columns",
+      //     "Blog 4 Columns",
+      //     "Blog Mansory Grid",
+      //   ],
+      // },
+      // {
+      //   title: "POST FORMATS",
+      //   expand: [
+      //     "Post Format Image",
+      //     "Post Format Gallery",
+      //     "Post Format Audio",
+      //     "Post Format Video",
+      //     "Post Format Quote",
+      //   ],
+      // },
+      // {
+      //   title: "POST LAYOUTS",
+      //   expand: ["Full Width", "Left Sidebar", "Right Sidebar"],
+      // },
     ],
   },
   {

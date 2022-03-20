@@ -30,8 +30,10 @@
   .prod_image  {
     position: relative;
     img {
-      width: 100%;
+      width: 60%;
       cursor: pointer;
+      display: block;
+      margin: 0 auto;
     }
   }
 

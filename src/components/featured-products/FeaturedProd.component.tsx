@@ -63,7 +63,7 @@ const FeaturedProd = () => {
                 FEATURED PRODUCTS
             </h3>
             <Row className="featuredProd_list">
-                <Col span={20}>
+                <Col span={24}>
                     <Tabs defaultActiveKey="1" onChange={callback}>
                         {
                             prodCategories.map(cate => (

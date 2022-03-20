@@ -18,12 +18,13 @@
       }
     }
     img {
-      max-width: 100%;
+      max-width: 60%;
       transition: all 0.3s;
       display: block;
-      width: 100%;
+      width: 60%;
       height: auto;
       transform: scale(1);
+      margin: 0 auto;
     }
   }
 }
