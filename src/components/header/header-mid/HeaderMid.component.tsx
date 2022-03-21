@@ -1,7 +1,7 @@
 import "./HeaderMid.style.scss";
 import { FaSearch } from "react-icons/fa";
 import logo from "./images/logo.png";
-import { Row, Col } from 'antd';
+
 const HeaderMid = () => {
   return (
     <div className="header-mid">

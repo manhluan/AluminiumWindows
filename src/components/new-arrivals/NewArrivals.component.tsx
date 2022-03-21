@@ -1,5 +1,5 @@
 import React from 'react';
-import { Row, Col } from 'antd';
+import { Row } from 'antd';
 import "./newArrivals.style.scss";
 import SubArrivals from './sub-arrivals/SubArrivals.component';
 
