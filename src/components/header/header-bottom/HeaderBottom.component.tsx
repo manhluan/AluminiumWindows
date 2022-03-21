@@ -51,7 +51,7 @@ const HeaderBottom = () => {
 
                           item.shopMenuImages && item.shopMenuImages.map((image, i) => (
                             <div className="shop-menu-carousel">
-                              <img src={image} key={i} />
+                              <img src={image} key={i} alt=""/>
                             </div>
                           ))
                         }

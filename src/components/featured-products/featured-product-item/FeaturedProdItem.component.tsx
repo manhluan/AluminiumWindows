@@ -1,17 +1,18 @@
 import React from 'react';
-import { Card, Col } from 'antd';
+import { Col } from 'antd';
 import { FaRegEye } from 'react-icons/fa';
 import "./featuredProdItem.style.scss";
 
-const { Meta } = Card;
+// const { Meta } = Card;
 
 interface PropsI {
     product: FeaturedProdItem;
+    span?: number;
 }
-const FeaturedProdItem = ({ product }: PropsI) => {
+const FeaturedProdItem = ({ product, span = 4 }: PropsI) => {
     return (
         <>
-            <Col md={{span:4}} xs={{span:10}} className="prod_image_container">
+            <Col md={{span: span}} xs={{span:10}} className="prod_image_container">
                 <div className="prod_image">
                     <img src={product.imageUrl} alt={product.name} />
                     <div className="view_prod">
