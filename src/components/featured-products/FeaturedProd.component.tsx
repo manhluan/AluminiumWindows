@@ -18,36 +18,36 @@ const prodCategories = [
     },
 ];
 
-const featuredProdList = [
+export const featuredProdList = [
     {
         id: 1,
         name: "CỬA NHÔM",
         price: "300,000",
-        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
+        imageUrl: "https://www.thespruce.com/thmb/AzUaXv39VAw-PP1vBs_crnyWbCM=/2048x1152/smart/filters:no_upscale()/front-door-sizes-5093450-hero-ac5961d7394848d9ab0d473b84498f11.jpg"
     },
     {
         id: 2,
         name: "CỬA SẮT",
         price: "300,000",
-        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
+        imageUrl: "https://www.thespruce.com/thmb/AzUaXv39VAw-PP1vBs_crnyWbCM=/2048x1152/smart/filters:no_upscale()/front-door-sizes-5093450-hero-ac5961d7394848d9ab0d473b84498f11.jpg"
     },
     {
         id: 3,
         name: "CỬA ĐỒNG",
         price: "300,000",
-        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
+        imageUrl: "https://www.thespruce.com/thmb/AzUaXv39VAw-PP1vBs_crnyWbCM=/2048x1152/smart/filters:no_upscale()/front-door-sizes-5093450-hero-ac5961d7394848d9ab0d473b84498f11.jpg"
     },
     {
         id: 4,
         name: "CỬA VÀNG",
         price: "300,000",
-        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
+        imageUrl: "https://www.thespruce.com/thmb/AzUaXv39VAw-PP1vBs_crnyWbCM=/2048x1152/smart/filters:no_upscale()/front-door-sizes-5093450-hero-ac5961d7394848d9ab0d473b84498f11.jpg"
     },
     {
         id: 5,
         name: "CỬA NHỰA",
         price: "300,000",
-        imageUrl: "https://www.conceptaluminium.com.au/media/ckfinder/images/Alures/Comet%20Sliding%20Window/sliding_window_open__final.png"
+        imageUrl: "https://www.thespruce.com/thmb/AzUaXv39VAw-PP1vBs_crnyWbCM=/2048x1152/smart/filters:no_upscale()/front-door-sizes-5093450-hero-ac5961d7394848d9ab0d473b84498f11.jpg"
     },
 ];
 const { TabPane } = Tabs;
