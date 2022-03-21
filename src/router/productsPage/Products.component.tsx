@@ -4,8 +4,9 @@ import { Row, Col, Breadcrumb } from 'antd';
 import "./products.style.scss";
 import FeaturedProdItem from 'components/featured-products/featured-product-item/FeaturedProdItem.component';
 import { featuredProdList } from '../../components/featured-products/FeaturedProd.component';
+import Categories from 'components/categories/Categories.component';
 
-const categories = [
+export const categories = [
     {
         id: 1,
         name: "Accesories 1"
@@ -51,17 +52,7 @@ const Products = () => {
                 </Col>
             </Row>
             <Row className="products_row">
-                <Col md={{ span: 4 }} xs={{span:24}} className="categories_col">
-                    <h2>CATEGORIES</h2>
-                    <ul className="product_categories">
-                        {
-                            categories.map(cate => (
-                                <li key={cate.id}>{cate.name}</li>
-                            ))
-                        }
-
-                    </ul>
-                </Col>
+                <Categories />
                 <Col md={{ span: 20 }} xs={{span:24}}>
                     <Row>
                         {

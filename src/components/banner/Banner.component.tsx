@@ -1,6 +1,4 @@
 import "./Banner.style.scss";
-import slider from "./images/newSlider_3.jpg";
-import slider_2 from "./images/newSlider_4.jpg";
 import slider_3 from "./images/slider3.png";
 import slider_4 from "./images/slider4.jpg";
 import Carousel from "react-elastic-carousel";

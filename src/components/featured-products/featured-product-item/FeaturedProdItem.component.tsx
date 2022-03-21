@@ -1,9 +1,9 @@
 import React from 'react';
-import { Card, Col } from 'antd';
+import { Col } from 'antd';
 import { FaRegEye } from 'react-icons/fa';
 import "./featuredProdItem.style.scss";
 
-const { Meta } = Card;
+// const { Meta } = Card;
 
 interface PropsI {
     product: FeaturedProdItem;

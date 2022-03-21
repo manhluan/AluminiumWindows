@@ -4,30 +4,35 @@
   padding-left: 10px;
   margin-bottom: 20px;
 
-  h2 {
-    position: relative;
-    padding: 15px;
-    color: #222222;
-    font-size: 12px;
-    text-transform: uppercase;
-    font-weight: 600;
-    background: #f2f2f2;
-    margin-bottom: 0;
+  .categories_col {
+    h2 {
+      position: relative;
+      padding: 15px;
+      color: #222222;
+      font-size: 12px;
+      text-transform: uppercase;
+      font-weight: 600;
+      background: #f2f2f2;
+      margin-bottom: 0;
+      border: 1px solid #eeeeee;
+    }
   }
 
   .product_categories {
-      list-style: none;
+    list-style: none;
 
-      li {
-          padding: 15px;
-          color: #464646;
-          border-top: 1px solid #eeeeee;
-      }
+    li {
+      padding: 15px;
+      color: #464646;
+      border-bottom: 1px solid #eeeeee;
+      border-right: 1px solid #eeeeee;
+      border-left: 1px solid #eeeeee;
+    }
   }
 
   .categories_col {
-    border: 1px solid #eeeeee;
-    border-radius: 4px 4px 0 0;
+    // border: 1px solid #eeeeee;
+    // border-radius: 4px 4px 0 0;
   }
 }
 .ant-breadcrumb {
