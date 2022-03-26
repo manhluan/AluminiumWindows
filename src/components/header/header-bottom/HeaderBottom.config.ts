@@ -107,7 +107,7 @@ export const dataNav = [
   },
   {
     title: "Contact us",
-    routePaths: "/",
+    routePaths: "/contact-us",
     expand: [],
     expandMenu: [],
   },
