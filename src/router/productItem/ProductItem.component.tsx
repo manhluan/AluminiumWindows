@@ -33,7 +33,7 @@ const ProductItem = () => {
 
                             </div>
                         </Col>
-                        <Col md={{ span: 20 }} xs={{ span: 24 }} className="details_prod_content prod_details_col">
+                        <Col md={{ span: 12 }} xs={{ span: 24 }} className="details_prod_content prod_details_col">
                             <h1>Product name</h1>
                             <p className="price">$72.00</p>
                             <p className="short_description">Style Code Live is a daily, live show where style enthusiasts can connect, chat, shop, and get the inside scoop on the latest fashion and beauty trends.</p>
