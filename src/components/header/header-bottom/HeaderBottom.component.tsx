@@ -21,7 +21,7 @@ const HeaderBottom = () => {
             if (item.expand.length > 0 || item.expandMenu.length > 0)
               return (
                 <li className="item-1" key={item.title}>
-                  <Link to="#">
+                  <Link to={item?.routePaths}>
                     {item.title} <FaAngleDown />
                   </Link>
 
@@ -56,7 +56,7 @@ const HeaderBottom = () => {
                           ))
                         }
                       </Carousel>
-                      <Row className="shop-memu-item">
+                      {/* <Row className="shop-memu-item">
                         {item.expandMenu.map((column) => (
                           <>
                             <Col md={{span:6}} xs={{span:24}} className="column" key={column.title}>
@@ -69,7 +69,7 @@ const HeaderBottom = () => {
                             </Col>
                           </>
                         ))}
-                      </Row>
+                      </Row> */}
                     </div>
                   )}
                 </li>
@@ -77,7 +77,7 @@ const HeaderBottom = () => {
 
             return (
               <li className="item-1" key={item.title}>
-                <Link to="#">{item.title}</Link>
+                <Link to={item?.routePaths}>{item.title}</Link>
               </li>
             );
           })}
