@@ -114,7 +114,7 @@ const Footer = () => {
 			</Row>
 			<Row className="footer_bottom">
 				<Col md={{span:8}} xs={{span:24}}>
-					<p className="copyright_text">©2022 WordPress Theme SW Shop4u. All Rights Reserved</p>
+					<p className="copyright_text">©2022 ABC Company</p>
 				</Col>
 				<Col md={{span:4}} xs={{span:24}} className="footer_subscribe">
 					<p className="phone_number">Call us now: 0123-345-688</p>

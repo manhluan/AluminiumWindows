@@ -15,6 +15,7 @@ const shopMenuImages = [
 export const dataNav = [
   {
     title: "Home",
+    routePaths: "/",
     expand: [
       
     ],
@@ -22,47 +23,51 @@ export const dataNav = [
   },
   {
     title: "SHOP",
+    routePaths: "/products",
     expand: [],
     shopMenuImages,
     expandMenu: [
       {
-        title: "SHOP LAYOUTS",
+        title: "",
         expand: [
-          "Left Sidebar",
-          "Right Sidebar",
-          "Full Width",
-          "2 Columns",
-          "3 Columns",
-          "4 Columns",
+          // "Left Sidebar",
+          // "Right Sidebar",
+          // "Full Width",
+          // "2 Columns",
+          // "3 Columns",
+          // "4 Columns",
         ],
       },
       {
-        title: "SHOP PAGES",
-        expand: ["Shop", "Cart", "Wishlist", "Checkout", "My Account"],
-      },
-      {
-        title: "PRODUCT TYPES",
+        title: "",
         expand: [
-          "Simple Product",
-          "Variable Product",
-          "Group Product",
-          "External & Affiliate Product",
-          "Swatch Variation Image Product",
+          
         ],
       },
       {
-        title: "PRODUCT PAGES",
+        title: "",
         expand: [
-          "Left Sidebar",
-          "Full Width",
-          "Right Sidebar",
-          "Featured Video",
+          // "Simple Product",
+          // "Variable Product",
+          // "Group Product",
+          // "External & Affiliate Product",
+          // "Swatch Variation Image Product",
+        ],
+      },
+      {
+        title: "",
+        expand: [
+          // "Left Sidebar",
+          // "Full Width",
+          // "Right Sidebar",
+          // "Featured Video",
         ],
       },
     ],
   },
   {
     title: "VIDEOS",
+    routePaths: "/",
     expand: [],
     expandMenu: [
       // {
@@ -102,6 +107,7 @@ export const dataNav = [
   },
   {
     title: "Contact us",
+    routePaths: "/",
     expand: [],
     expandMenu: [],
   },
